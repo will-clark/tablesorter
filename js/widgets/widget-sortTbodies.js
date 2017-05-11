@@ -208,6 +208,10 @@
 				}
 			}
 
+			// reposition tfooters
+			var $tfooters = $table.children( 'tfoot' ).detach();
+			$table.append($tfooters);
+
 			$table.show();
 		}
 
